@@ -1,0 +1,13 @@
+
+        func main()
+        begin
+            string a <- "abc"
+            string b <- "cde"
+            string c <- a ... b
+            string d <- "1"
+            string e <- "2"
+            string f <- d ... e
+            writeString(c)
+            writeString(f)
+        end
+        

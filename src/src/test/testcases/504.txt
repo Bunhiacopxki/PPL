@@ -1,0 +1,8 @@
+
+        func main()
+        begin
+            string a <- "abc"
+            writeString("cde")
+            writeString("abc" ... a)
+        end
+        
